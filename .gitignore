@@ -1,5 +1,11 @@
 # See https://www.dartlang.org/guides/libraries/private-files
 
+.vscode
+
+# Files and folders prepended by local_
+**/local_*/
+local_*
+
 # Files and directories created by pub
 .dart_tool/
 .packages
